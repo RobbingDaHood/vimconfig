@@ -5,7 +5,7 @@ filetype plugin on
 set relativenumber number
 set undodir=~/.vim/undo_dir
 set undofile
-set clipboard=unnamedplus
+set clipboard=unnamedplus,unnamed
 
 call plug#begin() 
 
