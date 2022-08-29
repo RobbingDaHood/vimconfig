@@ -1,5 +1,6 @@
 set nocompatible
 set hidden
+set confirm
 set nocp
 filetype plugin on
 set relativenumber number
@@ -8,11 +9,14 @@ set undofile
 set clipboard=unnamedplus,unnamed
 set hlsearch
 set incsearch
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set spell spelllang=en_us
 
 call plug#begin() 
 
 Plug 'https://github.com/md-img-paste-devs/md-img-paste.vim'  "Copy image from clipboard (in case of .md file), save it to disk and link it
-Plug 'https://github.com/tpope/vim-eunuch' "Got it primarly for its Move
+Plug 'https://github.com/tpope/vim-eunuch' "Got it primarily for its Move
+Plug 'preservim/vim-markdown'
 call plug#end()
 
 " md-img-paste.vim setup to overwrite p
