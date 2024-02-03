@@ -17,6 +17,7 @@ call plug#begin()
 Plug 'https://github.com/md-img-paste-devs/md-img-paste.vim'  "Copy image from clipboard (in case of .md file), save it to disk and link it
 Plug 'https://github.com/tpope/vim-eunuch' "Got it primarily for its Move
 Plug 'preservim/vim-markdown'
+Plug 'https://github.com/powerman/vim-plugin-AnsiEsc' "Excape ANSI colors in files: use :AnsiEsc command
 call plug#end()
 
 " md-img-paste.vim setup to overwrite p
