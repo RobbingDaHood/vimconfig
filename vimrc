@@ -12,6 +12,7 @@ set incsearch
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set spell spelllang=en_us
 set termguicolors
+set backspace=indent,eol,start  " more powerful backspacing; And necessary on some machine for it even to work.
 colorscheme slate
 
 call plug#begin() 
